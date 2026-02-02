@@ -9,15 +9,10 @@ The solution uses Playwright with Node.js and follows industry-standard QA pract
 ⚙️ Key Features
 
 📊 Data-driven testing using Excel
-
 🧪 Automated execution of functional, negative, and UI test cases
-
 🔄 Real-time input submission and output capture
-
 ✅ Automatic comparison of expected vs actual results
-
 📝 Test results written back to an Excel report
-
 🚀 Fast, repeatable, and scalable test execution using Playwright
 
 🗂️ Structure
@@ -30,25 +25,22 @@ QA Test Automation/
 🧩 How the Automation Works
 
 Reads test cases from Test_Cases.xlsx
-
 Automatically inputs Singlish text into the Swift Translator UI
-
 Captures the generated Sinhala output in real time
-
 Compares actual output against expected output
-
 Records pass/fail status and remarks in Testing_results.xlsx
 
 🛠️ Prerequisites
 
 Ensure the following are installed on your system:
-
 Node.js (version 18 or higher)
-
 npm (version 9 or higher)
-
 Playwright testing framework
 
-📥 Installation & Setup
-1️⃣ Clone the Repository
-git clone <your-g
+▶️ Running the Automation
+npm install
+npx playwright install
+npx playwright test
+
+Run a specific test case: npx playwright test -g "Pos_Fun_0001"
+
