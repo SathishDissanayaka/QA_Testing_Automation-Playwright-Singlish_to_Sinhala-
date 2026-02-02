@@ -1,3 +1,4 @@
+```bash
 📌 Overview
 
 This project implements an automated functional testing framework for the Singlish-to-Sinhala transliteration system available on Swift Translator.
