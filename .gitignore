@@ -1,0 +1,13 @@
+# Node modules (don't push heavy dependencies)
+node_modules/
+
+# Excel temporary files
+~$*.xlsx
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeScript build output (if any)
+dist/
+build/
